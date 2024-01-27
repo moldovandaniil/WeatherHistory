@@ -13,7 +13,7 @@ STEP 4.
 Clone the project in your environment. Access the persistence.xml file and change the jdbc.url, user and password values (from STEP 3).
 
 STEP 5. 
-Add the tomcat configuration (if you didn't do it beforehand) and run the project. The home page will be a form which let's you type in the postal code. The postal code should have the USA format (5 numbers), since one of the project's tasks was to validate the input (worldwide postal codes don't have a standard, so I limited it only to the US format).
+Add the tomcat configuration (if you didn't do it beforehand) in order to run the project and *VERY IMPORTANT* add the war_exploded artifact at the deployment and run the project. The home page will be a form which let's you type in the postal code. The postal code should have the USA format (5 numbers), since one of the project's tasks was to validate the input (worldwide postal codes don't have a standard, so I limited it only to the US format).
 
 In case the postal code input was correct, you will be met with another page, which shows the current weather prognosis and the history of the previous requests with the same postal code. Each time you do a new request, it is automatically saved in the database and therefore will be shown in the history.
 
