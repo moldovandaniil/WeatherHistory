@@ -36,7 +36,7 @@ In the case of a bad input or API fail, you will be met with the respective erro
 
 In the test package, there is a test that mocks the WeatherApiService.
 
-STEP 6.
+STEP 8.
 You can test the endpoints using Postman or another application. The results will be exactly the same as requested.
 POST localhost:8080/WeatherTask_war_exploded
 {
