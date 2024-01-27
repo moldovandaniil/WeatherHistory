@@ -38,7 +38,7 @@ In the test package, there is a test that mocks the WeatherApiService.
 
 STEP 8.
 You can test the endpoints using Postman or another application. The results will be exactly the same as requested.
-POST localhost:8080/WeatherTask_war_exploded
+POST localhost:8080/WeatherTask_war_exploded/weather
 {
 "postalCode": "123456"
 }
