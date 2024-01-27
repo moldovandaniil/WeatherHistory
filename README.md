@@ -40,10 +40,10 @@ STEP 8.
 You can test the endpoints using Postman or another application. The results will be exactly the same as requested.
 POST localhost:8080/WeatherTask_war_exploded
 {
-"postalcode": "123456"
+"postalCode": "123456"
 }
 Responds with weather condition
-GET localhost:8080/WeatherTask_war_exploded/weather/history?postalcode=123456
+GET localhost:8080/WeatherTask_war_exploded/weather/history?postalCode=123456
 Responds with all weather conditions fetched for postalcode so far
 
 
