@@ -23,7 +23,7 @@ STEP 6. VERY IMPORTANT!
 Give some time for the dependencies to load.
 **Edit the tomcat configuration and add the war_exploded artifact at the deployment stage (if using Intellij go to Edit Configuration->Deployment->+ Artifact->Select war exploded).**
 
-**If the api doesn't work, you may be behing a proxy**
+**If the api doesn't work, you may be behing a proxy.**
 **Remember to add the Java SDK (preferably 21)**
 
 ------------------------------------------
