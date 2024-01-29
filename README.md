@@ -8,7 +8,7 @@ STEP 1.
 Have IntelliJ Ultimate installed (or any other IDE that supports Java EE with Tomcat)
 
 STEP 2.
-Have Tomcat 9.0 installed.
+Have **Tomcat 9.0** installed.
 
 STEP 3.
 Have PostgreSQL installed with the pgAdmin client. Remember the username and password for the login (you will need them further). Create a new database and remember the name, localhost and the port (e.g. jdbc:postgresql://localhost:5432/weather_reports)
@@ -19,9 +19,12 @@ Clone the project in your environment. Access the persistence.xml file and chang
 STEP 5. 
 Add the tomcat configuration (if you didn't do it beforehand).
 
-STEP 6.
+STEP 6. VERY IMPORTANT!
 Give some time for the dependencies to load.
-Edit the tomcat configuration and add the war_exploded artifact at the deployment stage (if using Intellij go to Edit Configuration->Deployment->+ Artifact->Select war exploded).
+**Edit the tomcat configuration and add the war_exploded artifact at the deployment stage (if using Intellij go to Edit Configuration->Deployment->+ Artifact->Select war exploded).**
+
+**If the api doesn't work, you may be behing a proxy**
+**Remember to add the Java SDK (preferably 21)**
 
 ------------------------------------------
 RUNNING THE PROJECT
